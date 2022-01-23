@@ -75,7 +75,7 @@ function Listing() {
 
       <div className='listingDetails'>
         <p className='listingName'>
-          {listing.name} - $
+          {listing.name} - TZS{' '}
           {listing.offer
             ? listing.discountedPrice
                 .toString()
